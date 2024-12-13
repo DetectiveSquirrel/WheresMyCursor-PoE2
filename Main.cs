@@ -31,7 +31,7 @@ public class Main : BaseSettingsPlugin<Settings>
             return;
         }
 
-        if (windows.Atlas.IsVisible)
+        if (windows.TradeWindow.IsVisible)
         {
             return;
         }
