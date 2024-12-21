@@ -36,11 +36,6 @@ public class Main : BaseSettingsPlugin<Settings>
             return;
         }
 
-        if (windows.SyndicatePanel.IsVisible)
-        {
-            return;
-        }
-
         if (windows.AtlasTreePanel.IsVisible)
         {
             return;
